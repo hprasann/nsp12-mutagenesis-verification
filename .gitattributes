@@ -1,0 +1,2 @@
+# Treat everything in data/ as vendored (QC / raw / non-source)
+data/** linguist-vendored
