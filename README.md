@@ -6,7 +6,7 @@ This repository contains Sanger sequencing data and analysis scripts used to ver
 
 - `data/raw_ab1/` – raw Sanger chromatograms (`.ab1`)
 - `data/processed/` – FASTA + GenBank sequences derived from chromatograms
-- `data/vendor_qc/` – vendor QC reports (`.txt`, `.tsv`, `.html`, `.png`)
+- `data/qc_reports/` – Sanger sequencing quality metrics and chromatogram-derived QC outputs
 - `src/read_ab1.py` – batch converter: `.ab1` → `.fasta` using Biopython
 
 ## Usage
